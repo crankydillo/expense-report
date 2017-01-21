@@ -10,4 +10,6 @@ ADD index.js index.js
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 RUN npm install
 
+# Running with the run options in order to pass parameters to
+# node.  Need to find a better way for this.
 #CMD ["node", "index.js"]
